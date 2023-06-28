@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Trampoline-CX/action-turbo-changed/actions"><img alt="typescript-action status" src="https://github.com/Trampoline-CX/action-turbo-changed/workflows/build-test/badge.svg"></a>
+  <a href="https://github.com/capkakitiga/action-turbo-affected/actions"><img alt="typescript-action status" src="https://github.com/capkakitiga/action-turbo-affected/workflows/build-test/badge.svg"></a>
 </p>
 
 # `turbo-changed` Github Action
@@ -31,7 +31,7 @@ jobs:
 
       - name: package-a changed in last commit?
         id: changedAction
-        uses: Trampoline-CX/action-turbo-changed@v1
+        uses: capkakitiga/action-turbo-affected@v1
         with:
           workspace: package-a
           from: HEAD^1 # Check for changes since previous commit (feel free to put a branch name instead in the form of origin/<branchName>)
